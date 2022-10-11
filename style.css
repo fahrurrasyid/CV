@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.left-container{
+	position: fixed;
+	width: 400px;
+	height: 100vh; /*view port height*/
+	background-color: #000080;
+}
+.photo-contact{
+	position: absolute;
+	top: 100px;
+	text-align: center;
+}
+.photo{
+	width: 50%;
+	border-radius: 50%;
+}
+.putih{
+	color: white;
+}
+.tombol{
+	width: 60%;
+	background-color: white;
+	border-radius: 14px;
+	margin-bottom: 12px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 6px;
+}
+.tombol:hover{
+	background-color: black;
+	color: white;
+	transition: 0.9s;
+}
+.right-container{
+	position: absolute;
+	left: 400px;
+}
+.top-bar{
+	position: fixed;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+.title{
+	font-style: italic;
+	font-size: 20px;
+	padding-top: 0px;
+	padding-right: 55px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.list-menu{
+	float: right;
+	padding-right: 0px;
+}
+.menu{
+	font-size: 1rem;
+	padding: 0 5px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}
+
+#profile{
+	padding-top: 80px;
+	padding-left: 50px;
+	padding-right: 100px;
+}
+#about{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#education{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#skill{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#language{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#organizational{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#experience{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#portofolio{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#contact{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#footer{
+	padding-top: 300px;
+	text-align: center;
+}
+
+p,li{
+	line-height: 200%;
+}
